@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projetfin_D-Clic</title>
+    <link rel="stylesheet" href="CSS/fichier.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Oladjo ADJE</h1>
+      <div class="headerElementsSideRight">
+        <h3>Accueil</h3>
+        <h3>A propos</h3>
+        <h3>Projets</h3>
+        <h3>Compétences</h3>
+        <h3>Contact</h3>
+      </div>
+    </header>
+
+    <main>
+      <!-- Partie 1 -->
+      <section class="sectionFirst">
+        <div class="sectionFirstLeftSide">
+          <p class="sectionFirstText">
+            Développeur web en devenir, je suis passionnée par les métiers du
+            numérique, le web et le design!
+          </p>
+
+          <a href="#maSection" button class="sectionFirstBtn" onclick="bouton">
+            Voir mes projets
+          </a>
+        </div>
+        <div class="sectionFirstRight">
+          <img class="sectionFirstImg" src="images/image_1.jpg" alt="photo" />
+        </div>
+      </section>
+      <!-- Partie 2 -->
+      <section class="sectionSecond">
+        <h2 class="sectionSecondTitle">A propos</h2>
+        <div class="sectionSecondElements">
+          <div class="sectionSecondLeft">
+            <p>
+              Je m'appelle Oladjo ADJE, je suis passionnée par la création de
+              sites web modernes et interactifs.
+            </p>
+            <p>
+              A la base, je suis journaliste mais actuellement je suis une
+              formation en développement web. Je cherche à améliorer mes
+              compétences en JavaScript, HTML et CSS.
+            </p>
+            <p>
+              J'adore transformer mes idées en projets concrets et expérimenter
+              avec les nouvelles technologies.
+            </p>
+          </div>
+          <div class="sectionSecondRight">
+            <img
+              class="sectionSecondImg"
+              src="images/image 2.jpg"
+              alt="photo"
+            />
+          </div>
+        </div>
+      </section>
+      <!-- Partie 3 -->
+      <section id="maSection" class="sectionThird">
+        <h2 class="sectionThirdTitle">Mes Projets</h2>
+        <div class="sectionThirdElements">
+          <div class="sectionThirdCard">
+            <p class="sectionThirdText">
+              Un mini jeu interactif en JavaScript qui utilise des événements
+              DOM
+            </p>
+            <p class="sectionThirdPgraph">#html, #css, #js</p>
+
+            <button class="sectionThirdBtn" onclick="details">Voir plus</button>
+          </div>
+          <div class="sectionThirdCard">
+            <p class="sectionThirdText">
+              Un mini jeu interactif en JavaScript qui utilise des événements
+              DOM
+            </p>
+
+            <p class="sectionThirdPgraph">#html, #css, #js</p>
+
+            <button class="sectionThirdBtn" onclick="Detail">Voir plus</button>
+          </div>
+          <div class="sectionThirdCard">
+            <p class="sectionThirdText">
+              Un mini jeu interactif en JavaScript qui utilise des événements
+              DOM
+            </p>
+
+            <p class="sectionThirdPgraph">#html, #css, #js</p>
+            <button class="sectionThirdBtn" onclick="detail">Voir plus</button>
+          </div>
+        </div>
+      </section>
+      <!-- Partie 4 -->
+      <section class="sectionFour">
+        <h2 class="sectionFourTitle">Mes Compétences</h2>
+        <div class="sectionFourElements">
+          <div class="sectionFourCard">
+            <h3 class="sectionFourName">Soft Skills</h3>
+            <div class="sectionFourList">
+              <li>Adaptabilité</li>
+              <li>Polyvalence</li>
+              <li>Compétences rédactionnelles</li>
+            </div>
+          </div>
+          <div class="sectionFourCard">
+            <h3 class="sectionFourName">Hard Skills</h3>
+            <div class="sectionFourList">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>VsCode</li>
+              <li>JavaScript</li>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Partie 5 -->
+      <section class="sectionCinq">
+        <h1 class="sectionCinqTitle">Vous avez un projet en tête?</h1>
+        <h2 class="sectionCinqTitle">Contactez-nous</h2>
+        <form id="contactForm">
+          <div class="sectionCinqElements">
+            <div class="formulaire">
+              <div class="formulaireSurname">
+                <label for="name">Nom </label>
+                <input type="text" id="surname" />
+              </div>
+              <div class="formulaireName">
+                <label for="name">Prénom </label>
+                <input type="text" id="name" />
+              </div>
+            </div>
+            <div class="sectionCinqForm">
+              <div class="formulaireSujet">
+                <label for="line">Votre sujet</label>
+                <input type="text" id="sujet" />
+              </div>
+              <div class="formulaireMessage">
+                <label for="message">Message :</label>
+                <textarea name="message" id="message"></textarea>
+              </div>
+            </div>
+            <button type="submit">Envoyer</button>
+          </div>
+        </form>
+        <div id="responseMessage"></div>
+      </section>
+    </main>
+    <footer>
+      <h6>
+        Designed by <span class="highlight">Oladjo</span> with HTML CSS JS
+      </h6>
+      <h6>Tous droits réservés - 2025</h6>
+    </footer>
+    <script src="Js/doc.js"></script>
+  </body>
+</html>
